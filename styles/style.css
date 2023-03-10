@@ -9,13 +9,15 @@ body{
     background-image: url(../images/background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+
 }
 
 .container{
     position: relative;
     padding-left: 147px;
-    height: 100vh;
     display: flex;
+    height: 100vh;
     align-items: center;
 }
 
@@ -206,3 +208,30 @@ color: rgba(255, 255, 255, 0.678);
 .logo-center span{
 color: rgb(241, 162, 26);
 }
+
+@media (max-width:999px) {
+    .login-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        padding: 0px;
+    }
+    .text-logo-company{
+        display: inline-block;
+        flex: 0;
+        opacity: 0;
+        width: 0;
+    }
+}
+@media (max-width:390px) {
+    body{
+        background-size: unset;
+    }
+    .container{
+        padding: 0px;
+        width: 390px;
+    }
+}
+
