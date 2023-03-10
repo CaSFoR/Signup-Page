@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body{
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: relative;
+    padding-left: 147px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-flex{
+    display: flex;
+    width: 100%;
+}
+
+
+.text-logo-company{
+    background:transparent;
+    flex: 1;
+}
+
+.login-container{
+    background: rgb(11, 26, 38);
+   max-width: 349px;
+   flex: 1 ;
+   box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+   border-radius: 5px;
+}
+
+.login-card-top{
+    padding: 35px;
+}
+
+.form-control{
+display: flex;
+flex-direction: column;
+gap: 30px;
+flex: 1;
+}
+
+.login-title{
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 160%;
+    color: #FFF;
+    margin-bottom: 26px;
+}
+
+.login-form-email,
+.login-form-password,
+.login-form-confirm-password{
+    display: flex;
+    width: 100%;
+    padding: 10px 8px;
+    border: 1px solid rgb(60, 72, 84);
+    border-radius: 5px;
+    gap: 10px;
+}
+.input-email-icon,
+.input-lock-icon{
+    background: transparent;
+    color: rgb(60, 72, 84);
+}
+
+.input-email input,
+.input-password input,
+.input-confirm-password input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.input-email input,
+.input-password input,
+.input-confirm-password input{
+    color: white;
+}
+
+.login-form-email::selection{
+    background-color: #ffffff;
+}
+
+.login-form-check{
+    display: inline-block;
+    background-color: #FFF;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.btn-check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.checkbox-container input{
+    height: 28px;
+    width: 26px;
+    border: 1px solid #f2f2f2;
+}
+
+
+.login-form-button{
+    text-align: right;
+}
+.btn-submit{
+    display: inline-block;
+    background-color: rgb(27, 142, 183);
+    padding: 12px 48px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background-color: rgba(27, 142, 183,0.8);
+}
+
+.btn-submit:active{
+    background-color: rgba(27, 142, 183,0.6);
+    border: 2px solid rgb(38, 104, 130);
+}
+
+.btn-submit button{
+background: none;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+
+.login-card-below{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 18px;
+    flex: 1;
+}
+
+.btn-login-with{
+    display: flex;
+    background-color: rgb(17, 51, 76);
+    gap: 60px;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn-login-with:hover{
+    background-color: rgba(17, 51, 76,0.6);
+}
+
+.btn-login-with:active{
+    background-color: rgba(17, 51, 76,0.4);
+}
+
+.icon-logo{
+width: 19px;
+}
+
+.icon-logo img{
+    width:100%;
+}
+
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-center h1{
+    color: #FFF;
+    font-size: 50px;
+}
+.logo-center p{
+color: rgba(255, 255, 255, 0.678);
+}
+
+.logo-center span{
+color: rgb(241, 162, 26);
+}
